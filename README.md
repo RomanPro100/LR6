@@ -8,7 +8,6 @@
 ## 3 Лог команд
 ```bash
 git config --global --edit
-git config --global --edit
 
 git clone https://github.com/RomanPro100/LR6
 code LR6
@@ -18,7 +17,7 @@ git log --all --graph
 git add mergefile.txt
 git commit -m "Решил конфликт слияния"
 
-git push origin master --delete origin/branch1
+git push origin master --delete branch1
 git push origin master
 git branch -D branch1
 
