@@ -14,11 +14,22 @@
 ![](screens/02_configured_name.png)
 
 ### 2.2 Клонирование репозитория
-После этого в интерфейсе Github был создан форк [репозитория](https://github.com/Kurtyanik/LR6), [сам форк](https://github.com/RomanPro100/LR6) был клонирован на устройство командой `git clone`.
+После этого в интерфейсе Github был создан форк [репозитория](https://github.com/Kurtyanik/LR6) с копированием всех веток, [сам форк](https://github.com/RomanPro100/LR6) был клонирован на устройство командой `git clone`.
 
 ![](screens/03_forked_repo.png)
 
 ![](screens/04_cloning.png)
+
+### 2.3 Создание и подтягивание файла
+В интерфейсе Github в ветку `master` был добавлен текстовый файл.
+
+![](screens/05_creating_file.png)
+
+![](screens/06_creating_file2.png)
+
+После этого в локальном репозитории были получены изменения в удалённом репозитории при помощи команды `git pull`.
+
+![](screens/07_pulling.png)
 
 ## 3 Лог команд
 ```bash
