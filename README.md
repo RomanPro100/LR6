@@ -45,6 +45,6 @@ git revert HEAD
 git branch otchet
 git switch otchet
 ```
-## 4 Скриншоты
+## 4 История операций
 
 ## 5 Выводы
